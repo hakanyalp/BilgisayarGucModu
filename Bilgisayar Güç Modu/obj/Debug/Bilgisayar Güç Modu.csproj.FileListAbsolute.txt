@@ -1,0 +1,18 @@
+C:\Users\HAKAN\Desktop\Bilgisayar Güç Modu\Bilgisayar Güç Modu\bin\Debug\Bilgisayar Güç Modu.exe.config
+C:\Users\HAKAN\Desktop\Bilgisayar Güç Modu\Bilgisayar Güç Modu\bin\Debug\Bilgisayar Güç Modu.exe
+C:\Users\HAKAN\Desktop\Bilgisayar Güç Modu\Bilgisayar Güç Modu\bin\Debug\Bilgisayar Güç Modu.pdb
+C:\Users\HAKAN\Desktop\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.csprojResolveAssemblyReference.cache
+C:\Users\HAKAN\Desktop\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar_Güç_Modu.Form1.resources
+C:\Users\HAKAN\Desktop\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar_Güç_Modu.Properties.Resources.resources
+C:\Users\HAKAN\Desktop\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.csproj.GenerateResource.Cache
+C:\Users\HAKAN\Desktop\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.exe
+C:\Users\HAKAN\Desktop\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.pdb
+D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\bin\Debug\Bilgisayar Güç Modu.exe.config
+D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.exe
+D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.pdb
+D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\bin\Debug\Bilgisayar Güç Modu.exe
+D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\bin\Debug\Bilgisayar Güç Modu.pdb
+D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.csprojResolveAssemblyReference.cache
+D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar_Güç_Modu.Properties.Resources.resources
+D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.csproj.GenerateResource.Cache
+D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar_Güç_Modu.BilgisayarGucModu.resources
