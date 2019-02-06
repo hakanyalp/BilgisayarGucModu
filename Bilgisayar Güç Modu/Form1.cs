@@ -97,6 +97,8 @@ namespace Bilgisayar_Güç_Modu
                     OturumuKilitle();
                 else if (lstIslem.SelectedIndex == 3)
                     YenidenBaslat();
+                else if (lstIslem.SelectedIndex == 4)
+                    HazirdaBeklet();
             }
             else if (saniye == 0)   // saniye 0 olduğunda saat ya da dakika varsa oradan saniye almalıyız
             {
@@ -148,6 +150,13 @@ namespace Bilgisayar_Güç_Modu
         private void YenidenBaslat()
         {
             System.Diagnostics.Process.Start("shutdown", "/r -f -t 0");
+        }
+        
+        private void HazirdaBeklet()
+        {
+            Application.SetSuspendState(PowerState.Suspend, true, true);
+            //Application.SetSuspendState(PowerState.Hibernate, true, true);
+            //System.Diagnostics.Process.Start("%windir%\\system32\\rundll32.exe PowrProf.dll, SetSuspendState");
         }
 
         private void txtDakika_KeyPress(object sender, KeyPressEventArgs e)
