@@ -16,3 +16,13 @@ D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bil
 D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar_Güç_Modu.Properties.Resources.resources
 D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.csproj.GenerateResource.Cache
 D:\KODLAR\C# Örnekler\Bilgisayar Güç Modu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar_Güç_Modu.BilgisayarGucModu.resources
+C:\Users\Hakan\source\repos\hakan\BilgisayarGucModu\Bilgisayar Güç Modu\bin\Debug\Bilgisayar Güç Modu.exe.config
+C:\Users\Hakan\source\repos\hakan\BilgisayarGucModu\Bilgisayar Güç Modu\bin\Debug\Bilgisayar Güç Modu.exe
+C:\Users\Hakan\source\repos\hakan\BilgisayarGucModu\Bilgisayar Güç Modu\bin\Debug\Bilgisayar Güç Modu.pdb
+C:\Users\Hakan\source\repos\hakan\BilgisayarGucModu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.csprojAssemblyReference.cache
+C:\Users\Hakan\source\repos\hakan\BilgisayarGucModu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar_Güç_Modu.BilgisayarGucModu.resources
+C:\Users\Hakan\source\repos\hakan\BilgisayarGucModu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar_Güç_Modu.Properties.Resources.resources
+C:\Users\Hakan\source\repos\hakan\BilgisayarGucModu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.csproj.GenerateResource.cache
+C:\Users\Hakan\source\repos\hakan\BilgisayarGucModu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.csproj.CoreCompileInputs.cache
+C:\Users\Hakan\source\repos\hakan\BilgisayarGucModu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.exe
+C:\Users\Hakan\source\repos\hakan\BilgisayarGucModu\Bilgisayar Güç Modu\obj\Debug\Bilgisayar Güç Modu.pdb

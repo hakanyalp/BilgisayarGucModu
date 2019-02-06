@@ -57,15 +57,17 @@
             this.lstIslem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lstIslem.ForeColor = System.Drawing.Color.White;
             this.lstIslem.FormattingEnabled = true;
-            this.lstIslem.ItemHeight = 16;
+            this.lstIslem.ItemHeight = 25;
             this.lstIslem.Items.AddRange(new object[] {
             "Bilgisayarı Kapat",
             "Uykuya Al",
             "Oturumu Kilitle",
-            "Yeniden Başlat"});
-            this.lstIslem.Location = new System.Drawing.Point(38, 37);
+            "Yeniden Başlat",
+            "Hazırda Beklet"});
+            this.lstIslem.Location = new System.Drawing.Point(57, 57);
+            this.lstIslem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lstIslem.Name = "lstIslem";
-            this.lstIslem.Size = new System.Drawing.Size(123, 68);
+            this.lstIslem.Size = new System.Drawing.Size(182, 129);
             this.lstIslem.TabIndex = 1;
             this.lstIslem.SelectedValueChanged += new System.EventHandler(this.lstIslem_SelectedValueChanged);
             // 
@@ -76,7 +78,7 @@
             this.lstDakika.ForeColor = System.Drawing.Color.White;
             this.lstDakika.FormattingEnabled = true;
             this.lstDakika.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lstDakika.ItemHeight = 16;
+            this.lstDakika.ItemHeight = 25;
             this.lstDakika.Items.AddRange(new object[] {
             "10",
             "15",
@@ -85,10 +87,11 @@
             "30",
             "40",
             "60"});
-            this.lstDakika.Location = new System.Drawing.Point(201, 37);
+            this.lstDakika.Location = new System.Drawing.Point(302, 57);
+            this.lstDakika.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lstDakika.Name = "lstDakika";
             this.lstDakika.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lstDakika.Size = new System.Drawing.Size(45, 116);
+            this.lstDakika.Size = new System.Drawing.Size(66, 179);
             this.lstDakika.TabIndex = 2;
             this.lstDakika.SelectedIndexChanged += new System.EventHandler(this.lstDakika_SelectedIndexChanged);
             // 
@@ -97,9 +100,10 @@
             this.txtDakika.BackColor = System.Drawing.Color.ForestGreen;
             this.txtDakika.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtDakika.ForeColor = System.Drawing.Color.White;
-            this.txtDakika.Location = new System.Drawing.Point(88, 180);
+            this.txtDakika.Location = new System.Drawing.Point(132, 277);
+            this.txtDakika.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDakika.Name = "txtDakika";
-            this.txtDakika.Size = new System.Drawing.Size(73, 24);
+            this.txtDakika.Size = new System.Drawing.Size(108, 32);
             this.txtDakika.TabIndex = 0;
             this.txtDakika.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtDakika.TextChanged += new System.EventHandler(this.txtDakika_TextChanged);
@@ -110,9 +114,10 @@
             this.lblBilgi1.AutoSize = true;
             this.lblBilgi1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblBilgi1.ForeColor = System.Drawing.Color.Maroon;
-            this.lblBilgi1.Location = new System.Drawing.Point(35, 19);
+            this.lblBilgi1.Location = new System.Drawing.Point(52, 29);
+            this.lblBilgi1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBilgi1.Name = "lblBilgi1";
-            this.lblBilgi1.Size = new System.Drawing.Size(149, 15);
+            this.lblBilgi1.Size = new System.Drawing.Size(214, 22);
             this.lblBilgi1.TabIndex = 4;
             this.lblBilgi1.Text = "Yapmak istediğiniz işlem :";
             // 
@@ -121,9 +126,10 @@
             this.lblBilgi2.AutoSize = true;
             this.lblBilgi2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblBilgi2.ForeColor = System.Drawing.Color.Maroon;
-            this.lblBilgi2.Location = new System.Drawing.Point(198, 19);
+            this.lblBilgi2.Location = new System.Drawing.Point(297, 29);
+            this.lblBilgi2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBilgi2.Name = "lblBilgi2";
-            this.lblBilgi2.Size = new System.Drawing.Size(213, 15);
+            this.lblBilgi2.Size = new System.Drawing.Size(309, 22);
             this.lblBilgi2.TabIndex = 5;
             this.lblBilgi2.Text = "Kaç dakika sonra işlem gerçekleşsin?";
             // 
@@ -132,9 +138,10 @@
             this.lblBilgi3.AutoSize = true;
             this.lblBilgi3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblBilgi3.ForeColor = System.Drawing.Color.Maroon;
-            this.lblBilgi3.Location = new System.Drawing.Point(35, 162);
+            this.lblBilgi3.Location = new System.Drawing.Point(52, 249);
+            this.lblBilgi3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBilgi3.Name = "lblBilgi3";
-            this.lblBilgi3.Size = new System.Drawing.Size(213, 15);
+            this.lblBilgi3.Size = new System.Drawing.Size(306, 22);
             this.lblBilgi3.TabIndex = 6;
             this.lblBilgi3.Text = "Kendi dakikanızı belirlemek için girin :";
             // 
@@ -142,9 +149,10 @@
             // 
             this.lblSaat.BackColor = System.Drawing.Color.RoyalBlue;
             this.lblSaat.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSaat.Location = new System.Drawing.Point(65, 29);
+            this.lblSaat.Location = new System.Drawing.Point(98, 45);
+            this.lblSaat.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSaat.Name = "lblSaat";
-            this.lblSaat.Size = new System.Drawing.Size(30, 29);
+            this.lblSaat.Size = new System.Drawing.Size(45, 45);
             this.lblSaat.TabIndex = 7;
             this.lblSaat.Text = "00";
             this.lblSaat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -155,9 +163,10 @@
             // 
             this.lblDakika.BackColor = System.Drawing.Color.RoyalBlue;
             this.lblDakika.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblDakika.Location = new System.Drawing.Point(114, 29);
+            this.lblDakika.Location = new System.Drawing.Point(171, 45);
+            this.lblDakika.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDakika.Name = "lblDakika";
-            this.lblDakika.Size = new System.Drawing.Size(30, 29);
+            this.lblDakika.Size = new System.Drawing.Size(45, 45);
             this.lblDakika.TabIndex = 8;
             this.lblDakika.Text = "00";
             this.lblDakika.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -167,9 +176,10 @@
             // 
             this.lblSaniye.BackColor = System.Drawing.Color.RoyalBlue;
             this.lblSaniye.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSaniye.Location = new System.Drawing.Point(163, 29);
+            this.lblSaniye.Location = new System.Drawing.Point(244, 45);
+            this.lblSaniye.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSaniye.Name = "lblSaniye";
-            this.lblSaniye.Size = new System.Drawing.Size(30, 29);
+            this.lblSaniye.Size = new System.Drawing.Size(45, 45);
             this.lblSaniye.TabIndex = 9;
             this.lblSaniye.Text = "00";
             this.lblSaniye.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -179,9 +189,10 @@
             // 
             this.lblIsaret1.AutoSize = true;
             this.lblIsaret1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblIsaret1.Location = new System.Drawing.Point(98, 35);
+            this.lblIsaret1.Location = new System.Drawing.Point(147, 54);
+            this.lblIsaret1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIsaret1.Name = "lblIsaret1";
-            this.lblIsaret1.Size = new System.Drawing.Size(13, 17);
+            this.lblIsaret1.Size = new System.Drawing.Size(19, 25);
             this.lblIsaret1.TabIndex = 10;
             this.lblIsaret1.Text = ":";
             // 
@@ -189,9 +200,10 @@
             // 
             this.lblIsaret2.AutoSize = true;
             this.lblIsaret2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblIsaret2.Location = new System.Drawing.Point(147, 35);
+            this.lblIsaret2.Location = new System.Drawing.Point(220, 54);
+            this.lblIsaret2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIsaret2.Name = "lblIsaret2";
-            this.lblIsaret2.Size = new System.Drawing.Size(13, 17);
+            this.lblIsaret2.Size = new System.Drawing.Size(19, 25);
             this.lblIsaret2.TabIndex = 11;
             this.lblIsaret2.Text = ":";
             // 
@@ -209,9 +221,11 @@
             this.grpSaat.Controls.Add(this.lblIsaret1);
             this.grpSaat.Controls.Add(this.lblSaniye);
             this.grpSaat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.grpSaat.Location = new System.Drawing.Point(38, 218);
+            this.grpSaat.Location = new System.Drawing.Point(57, 335);
+            this.grpSaat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grpSaat.Name = "grpSaat";
-            this.grpSaat.Size = new System.Drawing.Size(259, 69);
+            this.grpSaat.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.grpSaat.Size = new System.Drawing.Size(388, 106);
             this.grpSaat.TabIndex = 12;
             this.grpSaat.TabStop = false;
             this.grpSaat.Text = "İşlemin gerçekleşmesine kalan süre";
@@ -219,13 +233,14 @@
             // btnIptal
             // 
             this.btnIptal.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btnIptal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnIptal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnIptal.ForeColor = System.Drawing.Color.White;
-            this.btnIptal.Location = new System.Drawing.Point(314, 162);
+            this.btnIptal.Location = new System.Drawing.Point(471, 249);
+            this.btnIptal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnIptal.Name = "btnIptal";
-            this.btnIptal.Size = new System.Drawing.Size(45, 125);
+            this.btnIptal.Size = new System.Drawing.Size(68, 192);
             this.btnIptal.TabIndex = 4;
-            this.btnIptal.Text = "İ\r\nP\r\nT\r\nA\r\nL";
+            this.btnIptal.Text = "D\r\nU\r\nR\r\nD\r\nU\r\nR";
             this.btnIptal.UseVisualStyleBackColor = false;
             this.btnIptal.Visible = false;
             this.btnIptal.Click += new System.EventHandler(this.btnIptal_Click);
@@ -240,9 +255,10 @@
             this.btnCikis.BackColor = System.Drawing.Color.Crimson;
             this.btnCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnCikis.ForeColor = System.Drawing.Color.White;
-            this.btnCikis.Location = new System.Drawing.Point(365, 37);
+            this.btnCikis.Location = new System.Drawing.Point(548, 57);
+            this.btnCikis.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCikis.Name = "btnCikis";
-            this.btnCikis.Size = new System.Drawing.Size(45, 250);
+            this.btnCikis.Size = new System.Drawing.Size(68, 385);
             this.btnCikis.TabIndex = 3;
             this.btnCikis.Text = "Ç\r\nI\r\nK\r\nI\r\nŞ";
             this.btnCikis.UseVisualStyleBackColor = false;
@@ -256,11 +272,11 @@
             // 
             // BilgisayarGucModu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(421, 319);
+            this.ClientSize = new System.Drawing.Size(632, 491);
             this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.btnIptal);
             this.Controls.Add(this.grpSaat);
@@ -271,6 +287,7 @@
             this.Controls.Add(this.lstDakika);
             this.Controls.Add(this.lstIslem);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "BilgisayarGucModu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
